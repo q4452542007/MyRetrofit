@@ -1,0 +1,80 @@
+<resources>
+
+    <!--科大讯飞key-->
+    <string name="xunfei_id">599690e7</string>
+
+    <string name="app_name">Busboard_55</string>
+    <string name="ws">/webservices/SiteServWebService.asmx</string>
+
+    <!--接口方法-->
+    <!--获取节目清单-->
+    <string name="GetPlaybillMain">GetPlaybillMain</string>
+    <!--获取文件HASH值-->
+    <string name="GetFileHashCode">GetFileHashCode</string>
+    <!--获取线路站点信息-->
+    <string name="GetLineInfo">E_station_line_Android</string>
+    <!--获取广告图片-->
+    <string name="GetAdInfo">E_Station_Picture</string>
+    <!--上传当前温湿度-->
+    <string name="UpdateLastAliveTime_new">UpdateLastAliveTime_new</string>
+    <!--反馈广告播放信息-->
+    <string name="AddPlayhistory">AddPlayhistory</string>
+    <!--获取删除文件列表-->
+    <string name="GetDeletedPlaybill">GetDeletedPlaybill</string>
+    <!--获取系统时间-->
+    <string name="GetServiceTime">getServiceTime</string>
+    <!--软件最新版本-->
+    <string name="GetVersion">GetVersion</string>
+    <!--发送门禁报警-->
+    <string name="alarmOpenDoor">alarmOpenDoor</string>
+
+    <string name="GetWarn">getLineStationAlarmbyEStationId</string>
+
+
+    <!--ACTION-->
+    <!--视频更新-->
+    <string name="action_update">update</string>
+    <!--车辆更新-->
+    <string name="action_vehicle">vehicle</string>
+    <!--路况更新-->
+    <string name="action_path">path</string>
+    <!--通知公告信息-->
+    <string name="action_sms">info</string>
+    <!--语音合成-->
+    <string name="action_tts">tts</string>
+    <!--系统时间-->
+    <string name="action_time">time</string>
+    <!--重置服务器-->
+    <string name="action_reset">reset</string>
+    <!--水火灾报警通知-->
+    <string name="action_warning">warning</string>
+    <string name="tag">already</string>
+
+    <!--设置参数-->
+    <string name="verifycode">verifycode</string>
+    <string name="estationid">estationid</string>
+    <string name="serviceIp">serviceIp</string>
+    <string name="httpPort">httpPort</string>
+    <string name="tcpPort">tcpPort</string>
+    <string name="strPath">strPath</string>
+    <integer name="item_count">4</integer><!--一个界面布置的线路框数-->
+    <string name="light_up">light_up</string><!--开灯-->
+    <string name="light_off">light_off</string><!--关灯-->
+
+    <!--字典参数-->
+    <string name="POSITION">position</string>
+    <string name="COUNT">count</string>
+    <string name="ISHALF">isHalf</string>
+    <string name="ITEM_WIDTH">item_width</string>
+    <string name="temperature">temperature_num</string>
+    <string name="humidity">humidity_num</string>
+    <string name="temp_vpt">temp_vpt</string><!--温度阈值-->
+
+    <string name="DATA_FLAG">data</string>
+    <string name="TAG">mapsoft__55:</string>
+    <string name="FAIL">fail</string>
+    <string name="NOT_NETWORK">没有网络</string>
+    <string name="NOT_SERVICE">没有配置服务器参数</string>
+
+
+</resources>
